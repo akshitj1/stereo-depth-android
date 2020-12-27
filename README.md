@@ -1,0 +1,3 @@
+# Infer Depth on Android Device
+## About
+This repo was created to assert if tensorflow [implementation](https://github.com/akshitj1/PWC_net_tf) of PWC-net works on mobile device(particularly android) with GPU support. Benchmark of inference time is also profiled. Saved model from is converted to Tf-lite format. Implementation works and is benchmarked on CPU. GPU compatibility will take work, as all used ops are not implemented for GPU in TF-Lite library. Switch b/w cpu-gpu during graph execution reduces fps.
